@@ -1,0 +1,131 @@
+{
+	"info": {
+		"name": "RedisCache",
+		"_postman_id": "3ea20046-f722-1260-5dea-17a5bd0cfce0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:53391/api/values/defaultKey",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:53391/api/values/defaultKey",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53391",
+					"path": [
+						"api",
+						"values",
+						"defaultKey"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:53391/api/values",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"item1\": \"temp\",\n\t\"item2\": \"my value for temp :)\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:53391/api/values",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53391",
+					"path": [
+						"api",
+						"values"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:53391/api/values/temp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:53391/api/values/temp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53391",
+					"path": [
+						"api",
+						"values",
+						"temp"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:53391/api/values",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:53391/api/values",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53391",
+					"path": [
+						"api",
+						"values"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:53391/api/values/defaultValue",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:53391/api/values/defaultValue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53391",
+					"path": [
+						"api",
+						"values",
+						"defaultValue"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
