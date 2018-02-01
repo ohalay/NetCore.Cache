@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27323.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.MemoryCache", "NetCore.Cache\NetCore.MemoryCache.csproj", "{187DE61D-A13B-4FC3-8248-9657F618AB20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.MemoryCache", "NetCore.MemoryCache\NetCore.MemoryCache.csproj", "{187DE61D-A13B-4FC3-8248-9657F618AB20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.RedisCache", "NetCore.RedisCache\NetCore.RedisCache.csproj", "{EC7222CF-C8F7-470B-A677-D2536CCB3B21}"
 EndProject
